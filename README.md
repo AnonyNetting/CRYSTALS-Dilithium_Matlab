@@ -32,7 +32,7 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
-## Disclaimer
+### Disclaimer
 
 This project is provided "as is" without any express or implied warranties, including but not limited to, implied warranties of merchantability and fitness for a particular purpose.
 
