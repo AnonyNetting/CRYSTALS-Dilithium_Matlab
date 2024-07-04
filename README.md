@@ -40,12 +40,12 @@ This project is provided "as is" without any express or implied warranties, incl
 To edit the necessary inputs for the algorithm in the xxx_testcase.mlx file, execute it to obtain the corresponding outputs that meet the FIPS204 standard requirements.
 For example, in KeyGen_testcase.mlx, make the following edits:
 
-clear;
-seed = zeros(1,256); % seed \n
-security_level = 2; % 2 or 3 or 5 \n
-[pk, sk] = KeyGen(seed, security_level);\n
-pk\n
-sk\n
+clear;  
+seed = zeros(1,256); % seed  
+security_level = 2; % 2 or 3 or 5  
+[pk, sk] = KeyGen(seed, security_level);  
+pk  
+sk  
 After execution, the public key (pk) and private key (sk) for CRYSTALS-Dilithium security-level 2 KeyGen with seed == 256'b0 will be obtained.
 
 In this project, the bit order of all inputs and outputs corresponds to the FIPS204 standard requirements (lower bits on the left).
