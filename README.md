@@ -3,7 +3,7 @@ Full security level implementation of CRYSTALS-Dilithium fit for FIPS204(https:/
 
 ## Reference Notice
 
-This Keccak function in this project references open-source software developed by David Hill. The original copyright notice is as follows:
+The Keccak function in this project references open-source software developed by David Hill. The original copyright notice is as follows:
 
 Copyright (c) 2020, David Hill
 All rights reserved.
