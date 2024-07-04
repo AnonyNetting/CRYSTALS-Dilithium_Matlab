@@ -35,7 +35,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 This project is provided "as is" without any express or implied warranties, including but not limited to, implied warranties of merchantability and fitness for a particular purpose.
 
-## Necessary toolbox
+## Necessary Toolbox
 Signal Processing Toolbox
 
 ## How to use?
