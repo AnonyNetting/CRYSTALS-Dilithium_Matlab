@@ -36,7 +36,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 This project is provided "as is" without any express or implied warranties, including but not limited to, implied warranties of merchantability and fitness for a particular purpose.
 
-# How to use?
+## How to use?
 To edit the necessary inputs for the algorithm in the xxx_testcase.mlx file, execute it to obtain the corresponding outputs that meet the FIPS204 standard requirements.
 For example, in KeyGen_testcase.mlx, make the following edits:
 
