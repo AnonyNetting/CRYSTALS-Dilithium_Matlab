@@ -52,4 +52,4 @@ After execution, the public key (pk) and private key (sk) for CRYSTALS-Dilithium
 
 In this project, the bit order of all inputs and outputs corresponds to the FIPS204 standard requirements (lower bits on the left).
 
-The result_transformer.mlx file provides the functionality to package all inputs and outputs into 4-bit groups and convert them into hexadecimal numbers, facilitating the observation of simulation results during hardware development (lower bits on the right).
+The result_transformer.mlx file provides the function to package all inputs and outputs into 4-bit groups and convert them into hexadecimal numbers, facilitating the observation of simulation results during hardware development (lower bits on the right).
