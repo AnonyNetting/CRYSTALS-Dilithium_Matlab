@@ -15,7 +15,6 @@ function    [hint, verify_result] = HintBitUnpack(h, security_level)
     index = 0;
     verify_result = 0;
 
-    weights = [1 2 4 8 16 32 64 128];
     y = bin2decMatrix(h, 8);
     
     for i = 1:k
