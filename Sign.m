@@ -167,7 +167,7 @@ function    signature = Sign(sk, M, security_level)
     %line22
         r0 = zeros(k,256);
         for i = 1:k
-            r0(i,:) = Lowbits(w(i,:) - c_s2(i,:), security_level);
+            r0(i,:) = Lowbits(mod(w(i,:) - c_s2(i,:), mod_val), security_level);
         end
 
     %line23
@@ -175,7 +175,7 @@ function    signature = Sign(sk, M, security_level)
             for j = 1:256
                 if((z(i,j) >= y1 - beta) && (z(i,j) <= mod_val - (y1-beta)))
                     rej_flag = 0;
-                    fprintf("z error happens at i = %d, j = %d, rej_round = %d\n", i, j, rej_round);
+                    fprintf("z error happens at i = %d, j = %d, z(%d, %d) = %x, rej_round = %d\n", i, j, i, j, z(i,j), rej_round);
                     break;
                 end
             end
